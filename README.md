@@ -4,4 +4,4 @@
 
 ## [Кодувати\Декодувати](https://github.com/Kuudere-phile/KuuReader/releases)
 Або
-[Завантажте]([https://github.com/Kuudere-phile/KuuReader/releases](https://github.com/Kuudere-phile/base64/releases/tag/base64))
+[Завантажте](https://github.com/Kuudere-phile/base64/releases/tag/base64)
