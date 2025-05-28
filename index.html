@@ -153,6 +153,22 @@
             display: none; 
             color: red;
         }
+        /* Стиль для кнопки "На головну" */
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Синій колір */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .home-button:hover {
+            background-color: #0056b3; /* Темніший синій при наведенні */
+        }
     </style>
 </head>
 <body>
@@ -160,9 +176,8 @@
         <tr>
             <td width="1%"></td>
             <td width="98%">
-                <h1 class="text">Base64 Кодування та Декодування</h1>
-
-                <h2 class="text">Кодувати файл у Base64</h2>
+                <a href="https://kuudere-phile.github.io/kuuderephile/" class="home-button">На головну</a>
+                <h1 class="text">Base64 Кодування та Декодування<br><h2 class="text">Кодувати файл у Base64</h2></h1>
                 <div class="button-container">
                     <label for="fileInput" id="fileLabel">Обрати файл</label>
                     <input type="file" id="fileInput" style="display: none;" onchange="changeButtonColor()">
